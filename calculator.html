@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Online Calculator</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <span>Online Calculator!!!</span>
+        <br>
+        <input type="text" placeholder="Enter first number" id="num1">
+        <input type="text" placeholder="Enter second number" id="num2">
+
+        <button onclick=add()>Add</button>
+        <button onclick=subtract()>Subtract</button>
+        <button onclick=multiply()>Muliply</button>
+        <button onclick=divide()>Divide</button>
+        <input type="text" placeholder="Result" id="result">
+    </body>
+    <script>
+        function add(){
+            let num1 = parseFloat(document.getElementById("num1").value);
+            let num2 = parseFloat(document.getElementById("num2").value);
+            result.value = num1 + num2; 
+        }
+        function subtract(){
+            let num1 = parseFloat(document.getElementById("num1").value);
+            let num2 = parseFloat(document.getElementById("num2").value);
+            result.value = num1 - num2; 
+        }
+        function multiply(){
+            let num1 = parseFloat(document.getElementById("num1").value);
+            let num2 = parseFloat(document.getElementById("num2").value);
+            result.value = num1 * num2; 
+        }
+        function divide(){
+            let num1 = parseFloat(document.getElementById("num1").value);
+            let num2 = parseFloat(document.getElementById("num2").value);
+            result.value = num1 / num2; 
+        }
+    </script>
+</html>

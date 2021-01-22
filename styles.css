@@ -1,0 +1,17 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+
+}
+
+button{
+    background-color: #099dfd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    font-size: 1.25rem;
+}
